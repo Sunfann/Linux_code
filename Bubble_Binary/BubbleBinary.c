@@ -44,8 +44,10 @@ void BinarySearch(int *Arr, int m, int temp)
     else if(Arr[mid] > temp)
       end = mid;
     else
+    {
       printf("this number is :%d,%d\n",Arr[mid],mid);
       break;
+    }
   }
   if(begin == end)
     printf("%d\n",begin);
