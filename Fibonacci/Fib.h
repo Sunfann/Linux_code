@@ -4,3 +4,4 @@
 #include <stdlib.h>
 
 long long *Fibc(int n);
+void Fibb(int m);

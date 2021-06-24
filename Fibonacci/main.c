@@ -7,4 +7,7 @@ int main()
   printf("please input number:");
   scanf("%d", &temp);
   Fibc(temp);
+  Fibb(temp);
+
+  return 0;
 }
